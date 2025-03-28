@@ -7,6 +7,5 @@ import java.io.IOException;
  */
 public interface AudioService {
 
-    void convertAudioToM3u8(String filename) throws IOException;
-
+  String convertAudioToM3u8(String filename) throws IOException;
 }
